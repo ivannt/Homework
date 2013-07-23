@@ -1,0 +1,19 @@
+using System;
+
+namespace NewOne
+{
+    class AgedAfter10Years
+    {
+        static void Main()
+        {
+            DateTime now = DateTime.Now;
+            Console.WriteLine(now);
+
+            Console.WriteLine("Write your age and expect the unexpectable:");
+            int age = int.Parse(Console.ReadLine());
+            int ageAfter10 = (age + 10);
+
+            Console.WriteLine("In the same date {0}, after ten years, U will be: {1}", now, age + 10);
+        }
+    }
+}
