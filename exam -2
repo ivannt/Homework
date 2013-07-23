@@ -1,0 +1,10 @@
+using System;
+
+class MyFirstAndLastName
+{
+    static void Main()
+    {
+        Console.WriteLine("first name: Ivan");
+        Console.WriteLine("last name: Takov");
+    }
+}
