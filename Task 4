@@ -1,0 +1,16 @@
+//4.Write a program to print the numbers 1, 101 and 1001.:
+
+using System;
+class PrintTheNumbers
+{
+    static void Main()
+    {
+        int aNum = 1;
+        int bNum = 101;
+        int cNum = 1001;
+        Console.WriteLine(" {0}, {1}, {2},", aNum, bNum, cNum);
+        Console.WriteLine();
+        // or
+        //Console.WriteLine("1" + " " + "101" + " " + "1001");
+    }
+}
