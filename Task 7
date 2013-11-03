@@ -1,0 +1,17 @@
+//7.Create a console application that prints the current date and time.:
+
+using System;
+class CurrentDateAndTime
+{
+    static void Main()
+    {
+        DateTime now = DateTime.Now;
+
+        Console.WriteLine(now.Year);
+        Console.WriteLine(now.Month);
+        Console.WriteLine(now.Day);
+        Console.WriteLine(now.Hour);
+        Console.WriteLine(now.Minute);
+        Console.WriteLine(now.Second);
+    }
+}
